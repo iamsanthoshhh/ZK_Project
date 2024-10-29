@@ -63,6 +63,9 @@ x was set to 3.
 Generated Proof: The proof was generated successfully.
 Verification Outputs: The verification confirmed that the proof is valid.
 
+OUTPUT OBTAINED FINAL VERIFICATION: ![OUTPUT_!](https://github.com/user-attachments/assets/f68d59a8-1426-4bd9-a00b-7a646055ebb5)
+ 
+
 Challenges Faced:
 Module Dependencies: Encountered issues with module dependencies, resolved by reinstalling snarkjs.
 Input Format: Ensured the correct input format for the proof generation.
