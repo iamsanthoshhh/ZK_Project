@@ -41,26 +41,26 @@ This project focuses on implementing a zero-knowledge (ZK) proof system to demon
 2. **Install Dependencies**
    ```bash
    npm install
-3. **Compile the circuit **
+3. **Compile the circuit**
    ```bash
    circom Equation.circom --r1cs --wasm --sym
 
-4. ** Trusted setup **
+4. **Trusted setup**
    ```bash
    snarkjs powersoftau new bn128 12 pot_final.ptau
    snarkjs groth16 setup Equation.r1cs pot_final.ptau Equation_0000.zkey
    snarkjs zkey contribute Equation_0000.zkey Equation_final.zkey --name="First contribution" -v
    snarkjs zkey export verificationkey Equation_final.zkey verification_key.json
 
-5. **Generate the witness **
+5. **Generate the witness**
    ```bash
    node Equation_js/generate_witness.js Equation_js/Equation.wasm input.json witness.wtns
 
-6. ** Generate the proof **
+6. **Generate the proof**
    ```bash
    snarkjs groth16 prove Equation_final.zkey witness.wtns proof.json public.json
 
-7. ** Verify the proof **
+7. **Verify the proof**
    ```bash
    snarkjs groth16 verify verification_key.json public.json proof.json
 
