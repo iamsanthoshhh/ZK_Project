@@ -2,7 +2,7 @@
 Assesment for Verisync Lab ZK Research Engineer
 # ZKProof Project
 
-***PROJECT IS LIVE ON DEMO PAGE***
+***PROJECT IS LIVE ON DEMO PAGE SIMPLE FRONTEND***
       https://iamsanthoshhh.github.io/ZK_Frontend/
    
 ## Overview
