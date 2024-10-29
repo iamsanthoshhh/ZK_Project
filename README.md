@@ -1,7 +1,7 @@
 # ZK_Project_VeriSync
 Assesment for Verisync Lab ZK Research Engineer
 # ZKProof Project
-   
+ 
 ## Overview
 This project focuses on implementing a zero-knowledge (ZK) proof system to demonstrate the knowledge of a solution for the equation \(x^2 + x + 7 = 9\) without revealing the value of \(x\). The project utilizes the **snarkjs** framework and the **Circom** programming language to design and verify ZK circuits.
 
@@ -96,7 +96,7 @@ WITNESS PROOF GENERATION FILE :![witness](https://github.com/user-attachments/as
 VERIFICATION KEY GENERATION : ![verification key genrated](https://github.com/user-attachments/assets/c34d625c-a4e2-4e4d-a33c-29324d4fd423)
 
 
-
+***SIMPLE FRONT END DEMONSTRATION:***   https://iamsanthoshhh.github.io/ZK_Frontend/
 
 
 
