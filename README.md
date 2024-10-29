@@ -102,9 +102,9 @@ Challenges Faced:
 Module Dependencies: Encountered issues with module dependencies, resolved by reinstalling snarkjs.
 Input Format: Ensured the correct input format for the proof generation.
 
-⚖️ Trade-offs in ZK Protocols :I HAvE TESTED THE CIRCUIT IN THREE ZK CIRCUIT PROTOCOLS IN WHICH IT HAS THESE TRADE OFFS
+⚖️ Trade-offs in ZK Protocols : **I HAvE TESTED THE CIRCUIT IN THREE ZK CIRCUIT PROTOCOLS IN WHICH IT HAS THESE TRADE OFFS**
 Summary of Trade-offs
-Aspect	Groth16	Plonk	STARKs
+Aspect Groth16	Plonk	STARKs
 Proof Generation Time	Moderate to long (dependent on setup)	Fast (due to polynomial commitment)	Longer due to hash computations
 Proof Size	Small (around 100 bytes)	Small to moderate	Larger (depending on depth of circuit)
 Verification Time	Very fast (a few milliseconds)	Fast, but dependent on the implementation	Moderate (but scalable)
