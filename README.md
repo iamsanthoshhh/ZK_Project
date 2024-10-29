@@ -5,6 +5,17 @@ Assesment for Verisync Lab ZK Research Engineer
 ## Overview
 This project focuses on implementing a zero-knowledge (ZK) proof system to demonstrate the knowledge of a solution for the equation \(x^2 + x + 7 = 9\) without revealing the value of \(x\). The project utilizes the **snarkjs** framework and the **Circom** programming language to design and verify ZK circuits.
 
+For the circuit defined by the equation \( x^2 + x + 7 = y \), here’s a breakdown of all the public and private inputs:
+
+### 1. **Public Inputs**
+   - **Equation Result (y)**: The output \( y \) that results from the equation \( x^2 + x + 7 \).
+   - **Equation Structure**: The verifier knows the structure of the equation \( x^2 + x + 7 \) that the prover is using.
+
+### 2. **Private Inputs**
+   - **Prover’s Input (x)**: The value \( x \) which the prover claims satisfies the equation \( x^2 + x + 7 = y \).
+  
+In a zero-knowledge proof (ZKP) system, the goal is for the prover to demonstrate knowledge of this private input \( x \) without actually disclosing its value, only showing that it satisfies the equation to yield \( y \).
+
 ## Project Structure
 **Equation.circom: Circuit file defining the equation x^2 + x + 7.**
 
